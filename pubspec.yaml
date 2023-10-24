@@ -1,0 +1,51 @@
+name: tcc_teste
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0-322.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  latlong2: ^0.8.1
+  flutter_map: any
+  flutter_colorpicker: ^0.5.0
+  mysql1: ^0.20.0
+
+
+  
+
+geocoding:
+  sdk: flutter
+  version: ^2.0.1
+
+geolocator:
+  sdk: flutter
+  version: ^7.7.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.9.0
+  
+  
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/home/logo.png"
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/splashScreen/splashScreen.png 
+    - assets/splashScreen/splashDois.png 
+    - assets/home/logo.png
+    - assets/home/icons/location.png
+    - assets/home/icons/busStop.png
+    - assets/home/icons/bus.png
+    - assets/home/icons/clock.png
